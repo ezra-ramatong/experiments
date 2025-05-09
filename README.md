@@ -1,4 +1,3 @@
 # experiments
 
-mwahahaha
-hahaha
+frontend experiments. pure chaos.
