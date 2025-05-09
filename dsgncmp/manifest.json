@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Design comparison tool",
+  "version": "1.0",
+  "description": "Overlay a design image over the current site with a draggable comparison slider.",
+  "permissions": ["activeTab", "scripting"],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://localhost/*",
+        "<all_urls>"],
+      "js": ["content.js"],
+      "css": ["style.css"]
+    }
+  ],
+  "action": {
+    "default_title": "Toggle Comparison Overlay"
+  }
+}
+
