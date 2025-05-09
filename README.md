@@ -1,3 +1,3 @@
 # experiments
 
-frontend experiments. pure chaos.
+web experiments. pure chaos.
